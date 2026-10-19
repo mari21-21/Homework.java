@@ -5,7 +5,7 @@ import java.util.Random;
 public class DiceTest {
      static void main(String[] args) {
         Random rand = new Random();
-        int[] counters = new int[6];
+        int[] counters = new int[6 ];
 
         for (int i = 0; i < 1000; i++) {
             int roll = rand.nextInt(6) + 1;

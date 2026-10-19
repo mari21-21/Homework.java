@@ -18,8 +18,6 @@ public class DiceGame {
         int compTotal = compRoll1 + compRoll2;
         System.out.println("Computer rolled " + compRoll1 + " and " + compRoll2 + " (Total: " + compTotal + ")");
 
-
-
         // checking who won
         if (userTotal > compTotal) {
             System.out.println("User is the Winner");
