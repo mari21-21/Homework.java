@@ -19,6 +19,8 @@ public class RandomArray {
         int min = numbers[0];
         int max = numbers[0];
         double sum = 0;
+
+        // defining the odd and even
         int evenCount = 0;
         int oddCount = 0;
 
@@ -31,6 +33,7 @@ public class RandomArray {
             }
             sum = sum + numbers[i];
 
+            // finding the odd and even nr
             if (numbers[i] % 2 == 0) {
                 evenCount++;
             } else {
